@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AppLayout } from '@/components/layout/AppLayout'
 import { FeedPage } from '@/pages/FeedPage'
 import { TrackerPage } from '@/pages/TrackerPage'
@@ -8,7 +8,7 @@ import { FoodPage } from '@/pages/FoodPage'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/stayplay-app">
       <AppLayout>
         <Routes>
           <Route path="/" element={<FeedPage />} />
