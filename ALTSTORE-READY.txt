@@ -1,0 +1,37 @@
+
+🎉 ВАШЕ ПРИЛОЖЕНИЕ ГОТОВО ДЛЯ ALTSTORE!
+
+📱 СЛЕДУЮЩИЕ ШАГИ:
+
+1. 🌐 Откройте PWA Builder: https://www.pwabuilder.com/
+2. 📝 Введите URL: http://localhost:3001
+3. 🎯 Выберите iOS → Generate Package
+4. 📥 Скачайте .ipa файл
+5. 📱 Установите через AltStore
+
+🔧 АЛЬТЕРНАТИВНЫЕ СПОСОБЫ:
+
+A) Bubblewrap (Google):
+   npm install -g @bubblewrap/cli
+   bubblewrap init --manifest=http://localhost:3001/manifest.json
+   bubblewrap build
+
+B) Capacitor:
+   npm install @capacitor/core @capacitor/cli @capacitor/ios
+   npx cap init StayPlay com.stayplay.app
+   npx cap add ios
+   npx cap copy ios
+   npx cap sync ios
+   npx cap open ios
+
+📁 ГОТОВЫЕ ФАЙЛЫ:
+- ✅ Собранное приложение: dist/
+- ✅ PWA манифест: public/manifest.json
+- ✅ Service Worker: public/sw.js
+- ✅ Иконки: public/icons/
+- ✅ Локальный сервер: http://localhost:3001
+
+🎯 РЕКОМЕНДУЕМЫЙ СПОСОБ: PWA Builder
+   Самый простой и быстрый способ получить .ipa файл!
+
+🚀 УДАЧИ С УСТАНОВКОЙ!

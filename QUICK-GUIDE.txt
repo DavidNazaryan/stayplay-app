@@ -1,0 +1,10 @@
+
+БЫСТРАЯ ИНСТРУКЦИЯ:
+
+1. Откройте: https://www.pwabuilder.com/
+2. Вставьте URL: http://localhost:3001
+3. Выберите iOS → Generate Package
+4. Скачайте .ipa файл
+5. Установите через AltStore
+
+Готово! 🎉
