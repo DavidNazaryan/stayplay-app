@@ -1,9 +1,8 @@
 const CACHE_NAME = 'stayplay-v1'
 const urlsToCache = [
-  '/',
-  '/static/js/bundle.js',
-  '/static/css/main.css',
-  '/manifest.json'
+  '/stayplay-app/',
+  '/stayplay-app/manifest.json',
+  '/stayplay-app/icon.svg'
 ]
 
 self.addEventListener('install', (event) => {
